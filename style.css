@@ -75,6 +75,7 @@
 
 .list-2 {
     flex: 2;
+    margin-left: 30px;
 }
 
 .my-card {
@@ -232,7 +233,6 @@ input {
     padding-bottom: 5px !important;
     border-radius: 5px !important;
 }
-
 .sec-3-1 {
     background-color: #FFFFFF;
 }
@@ -263,8 +263,16 @@ input {
     color: #2B2F34;
 }
 
+.c2{
+    color: #595959;
+}
 
-
+.cardI>div{
+    border: solid #D7D7D7;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+}
 
 .cardII>div{
     border: solid #D7D7D7;
@@ -291,17 +299,6 @@ input {
     margin-top: 40px;
     margin-bottom: 30px;
     padding: auto;
-}
-
-.cardII>div
-{
-    padding:20px;
-	text-align:center;
-	width:100%;
-	height:100%;
-	box-shadow:0px 0px 10px rgb(182, 176, 176);
-	background-color:whitesmoke;
-    margin-top: 20px;
 }
 
 .cardII>div
